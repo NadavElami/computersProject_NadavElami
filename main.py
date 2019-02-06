@@ -357,6 +357,7 @@ def chi_squared_for_non_linear_functions(filename):
 
 
 def chi_squared_but_this_time_its_reduced(n, chi):
+    # according to formula (7)
     chi_squared_reduced = (chi/(n-2))
     return chi_squared_reduced
 
@@ -417,10 +418,4 @@ def plot_that_bonus_graph_but_the_interesting_one(filename):
     return plt.show()
 
 # -------------------------------------------------- end project -------------------------------------------------- #
-
-
-filename_1 = 'input_bonus.txt'
-search_best_parameter(filename_1)
-filename_2 = 'input1.txt'
-#fit_linear(filename_2)
 
