@@ -413,8 +413,3 @@ def plot_that_bonus_graph_but_the_interesting_one(filename):
 # -------------------------------------------------- end project -------------------------------------------------- #
 
 
-filename_1 = 'input_bonus.txt'
-# search_best_parameter(filename_1)
-filename_2 = 'input1.txt'
-fit_linear(filename_2)
-
